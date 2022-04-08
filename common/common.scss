@@ -1,0 +1,40 @@
+/* === Style overrides === */
+
+// Remove shadow from the navbar
+.d-header {
+  box-shadow: none;
+}
+
+// Add rounding to buttons
+.nav-pills a,
+.btn {
+  border-radius: 0.2rem;
+}
+
+// Slight hover effect
+.btn-default:hover {
+  background-color: var(--primary-low-mid);
+}
+
+.btn-primary:hover {
+  background-color: var(--tertiary-hover);
+}
+
+// Remove the ugly gradient when clicked
+.btn:active {
+  background-image: initial;
+  border-bottom-color: initial;
+}
+
+.btn-default:active {
+  background-color: var(--primary-medium);
+}
+
+.btn-primary:active {
+  background-color: var(--tertiary-medium);
+}
+
+// Add a slight hover effect to header icons
+.d-header-icons a:hover {
+  filter: brightness(0.8);
+}
