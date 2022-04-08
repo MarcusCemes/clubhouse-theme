@@ -1,9 +1,32 @@
 {
   "about_url": null,
   "license_url": null,
-  "assets": {
-  },
+  "assets": {},
   "name": "Clubhouse",
   "color_schemes": {
+    "Clubhouse Light": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "0891b2",
+      "quaternary": "dc2626",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "fde68a",
+      "danger": "dc2626",
+      "success": "65a30d",
+      "love": "ff0000"
+    },
+    "Clubhouse Dark": {
+      "primary": "dddddd",
+      "secondary": "222222",
+      "tertiary": "0891b2",
+      "quaternary": "dc2626",
+      "header_background": "111111",
+      "header_primary": "dddddd",
+      "highlight": "a87137",
+      "danger": "dc2626",
+      "success": "65a30d",
+      "love": "ff0000"
+    }
   }
 }
