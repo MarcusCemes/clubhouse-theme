@@ -5,6 +5,12 @@
   box-shadow: none;
 }
 
+// Fix a logo shrinkage issue on mobile
+// https://meta.discourse.org/t/header-logo-is-smaller-after-upgrading-to-2-2-0-beta5/103114/4
+.d-header #site-logo {
+  height: 2.6em;
+}
+
 // Add rounding to buttons
 .nav-pills a,
 .btn {
